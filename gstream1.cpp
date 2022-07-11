@@ -14,6 +14,7 @@ int main(int arg, char *argv[]) {
     GstElement *pipeline = nullptr;
     GstBus *bus = nullptr;
     GstMessage *msg = nullptr;
+    std::cout<<argv[1]<<std::endl;
 
     // gstreamer initialization
     gst_init(&arg, &argv);
