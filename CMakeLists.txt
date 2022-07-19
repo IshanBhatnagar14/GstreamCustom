@@ -21,11 +21,15 @@ link_directories(
 )
 
 #building target executable
-add_executable(${PROJECT_NAME} gstream1.cpp)
+add_executable(exp1 gstream1.cpp)
 
-add_executable(${PROJECT_NAME}_2 gstream2.cpp)
+add_executable(exp2 gstream2.cpp)
+
+add_executable(zed zedstream.cpp)
 
 #linking Gstreamer library with target executable
-target_link_libraries(${PROJECT_NAME} ${GSTREAMER_LIBRARIES})
+target_link_libraries(exp1 ${GSTREAMER_LIBRARIES})
 
-target_link_libraries(${PROJECT_NAME}_2 ${GSTREAMER_LIBRARIES})
+target_link_libraries(exp2 ${GSTREAMER_LIBRARIES})
+
+target_link_libraries(zed ${GSTREAMER_LIBRARIES})
