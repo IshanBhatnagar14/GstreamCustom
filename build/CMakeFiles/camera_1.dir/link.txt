@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++ CMakeFiles/camera_1.dir/camera1.cpp.o -o camera_1  -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 

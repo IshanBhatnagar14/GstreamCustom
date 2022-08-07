@@ -1,0 +1,5 @@
+/home/nkb/GstreamCustom/build/CMakeFiles/GstreamCustom.dir
+/home/nkb/GstreamCustom/build/CMakeFiles/GstreamCustom_2.dir
+/home/nkb/GstreamCustom/build/CMakeFiles/camera_1.dir
+/home/nkb/GstreamCustom/build/CMakeFiles/edit_cache.dir
+/home/nkb/GstreamCustom/build/CMakeFiles/rebuild_cache.dir

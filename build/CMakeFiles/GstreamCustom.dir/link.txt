@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++ CMakeFiles/GstreamCustom.dir/gstream1.cpp.o -o GstreamCustom  -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 

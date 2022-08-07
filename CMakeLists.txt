@@ -25,7 +25,11 @@ add_executable(${PROJECT_NAME} gstream1.cpp)
 
 add_executable(${PROJECT_NAME}_2 gstream2.cpp)
 
+add_executable(camera_1 camera1.cpp)
+
 #linking Gstreamer library with target executable
 target_link_libraries(${PROJECT_NAME} ${GSTREAMER_LIBRARIES})
 
 target_link_libraries(${PROJECT_NAME}_2 ${GSTREAMER_LIBRARIES})
+
+target_link_libraries(camera_1 ${GSTREAMER_LIBRARIES} )
